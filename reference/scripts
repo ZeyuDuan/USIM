@@ -1,0 +1,10 @@
+# cd scratch place
+cd data/
+
+# Download zip dataset from Google Drive
+wget --no-check-certificate "https://drive.google.com/uc?export=download&id=${1nB-F-vexX7Sr1K8mYan1sbDApSgnqWqu}" -O ${reference.rar}
+
+
+# Unzip
+rar x raw.rar
+cd
